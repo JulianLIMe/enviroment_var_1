@@ -1,0 +1,18 @@
+{
+  "name": "environmentvariables",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "set NODE_ENV=development&& set HOST=localhost&& set PORT=4000&& node server.js",
+    "prod": "set NODE_ENV=production&& set HOST=127.0.0.2&& set PORT=5000&& node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
+}
